@@ -1,0 +1,331 @@
+* {
+	display: block;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+section {
+	padding: 50px 0;
+}
+
+/* TOP NAVIGATION */
+
+nav {
+	background-color: #02908b;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 60px;
+	z-index: 100;
+}
+
+nav > a {
+	color: white;
+	margin: 10px 25px;
+	font-weight: bold;
+	font-size: 26px;
+	font-weight: bold;
+	float: left;
+	display: inline-flex;
+	text-align: left;
+	text-decoration: none;
+	position: absolute;
+
+}
+
+nav a span {
+	color: #cfc91d;
+	text-align: left;
+}
+
+nav ul {
+	float: right;
+	margin: 20px 25px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 0px 10px;
+}
+
+nav ul li a:hover {
+	color: #cfc91d;
+}
+
+/* HEADING */
+
+header {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 500px;
+	background-position: 100% 50%;
+	text-align: center;
+	color: white;
+	padding-top: 15%;
+	background-image: url('../images/headerbg.png');
+}
+
+header h2 {
+	font-size: 36px;
+	margin: 0px;
+}
+
+header h1 {
+	font-size: 72px;
+	letter-spacing: 20px;
+	line-height: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+header p {
+	letter-spacing: -1px;
+	padding: 0;
+	margin: 20px 0;
+}
+
+header img {
+	margin: 20px auto;
+	padding: 20px 0;
+}
+
+header button {
+	background-color: #cfc91d;
+	color: black;
+	font-size: 16px;
+	border: none;
+	margin: 0 auto;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 2px;
+}
+
+header a {
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+header button:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+/* about me */
+
+#about {
+	background-color: white;
+	text-align: center;
+}
+
+#about h1 {
+	font-size: 46px;
+	color: #02918c;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#about img {
+	margin: 20px auto;
+}
+
+#about > p {
+	font-size: 16px;
+	color: #7e8287;
+	line-height: 41px;
+	margin: 0 auto;
+	width: 70%;
+}
+
+#about p span {
+	font-size: 23px;
+	font-weight: bold;
+	display: inline;
+}
+
+.aboutitems {
+	color: #7e8287;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.aboutitems div i {
+	color: #02918c;
+}
+
+.aboutitems div h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.aboutitems div p {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.aboutitems div {
+	margin: 3% 0;
+	display: block;
+	width: 16%;
+	float: left;
+	border-right: 1px solid black;
+	padding: 0 4%;
+}
+
+/* desciption of services */
+
+#services {
+	background-image: url('../images/servicebg.png'); 
+	background-size: cover;
+	display: inline-block;
+	padding-left: 10%;
+	color: #7e8287;
+}	
+
+#services h1 {
+	font-size: 46px;
+	color: #02918c;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#services img {
+	margin: 20px 0;
+}
+
+#services i {
+	color: #02918c;
+}
+
+#services > p {
+	width: 40%;
+	line-height: 36px;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #7e8287;
+}
+
+#services h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#services div p {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#services div {
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+
+div.right {
+	margin-left: 15%;
+}
+
+/* contact entry area */
+
+#contact {
+	background-color: white;
+	color: #7e8287;
+	text-align: center;
+	padding-bottom: 0;
+}
+
+#contact h1 {
+	font-size: 46px;
+	color: #02918c;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#contact img {
+	margin: 20px auto;
+}
+
+#contact p {
+	font-size: 16px;
+	line-height: 48px;
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+/* entry area */
+
+div.entry {
+	background-color: #0b0b0b;
+	color: #7e8287;
+	padding: 50px 25px;
+}
+
+.entry h2 {
+	margin: 0 auto;
+	padding-top: 50px;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.entry input {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #7e8287;
+	width: 60%;
+	margin: 0 auto;
+	font-size: 24px;
+	height: 30px;
+}
+
+.entry textarea {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #7e8287;
+	border-top: 1px solid #7e8287;
+	width: 60%;
+	margin: 0 auto;
+	font-size: 24px;
+}
+
+.entry button {
+	background-color: #cdc71d;
+	border: none;
+	padding: 10px 30px;
+	font-size: 14px;
+	color: #0b1016;
+	font-weight: bold;
+	text-decoration: none;
+	clear: both;
+	margin: 0 auto;
+	margin-top: 50px;
+	cursor: pointer;
+	transition: all;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: black;
+	width: 100%;
+	padding: 10px 0;
+}
+
+footer p {
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+	color: #7e8287;
+}
